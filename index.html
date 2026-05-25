@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- SEO meta tags -->
+  <title>Bodega Bikes Cavite | Quality Bicycles & E-Bikes in Dasmarinas</title>
+  <meta name="description" content="Your trusted bike shop in Dasmarinas, Cavite. Quality bicycles, e-bikes, repairs, and accessories. Open daily 9am-6pm at Don P. Campos Ave." />
+  <meta name="keywords" content="Bodega Bikes Cavite, bike shop, bicycles, e-bikes, bike repair, Dasmarinas Cavite, cycling, mountain bikes" />
+  <meta name="author" content="Bodega Bikes Cavite" />
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Bodega Bikes Cavite | Quality Bicycles & E-Bikes" />
+  <meta property="og:description" content="Your trusted bike shop in Dasmarinas, Cavite. Quality bicycles, e-bikes, repairs, and accessories." />
+  <meta property="og:image" content="https://bodegabikescavite.vikaph.com/images/hero.jpg" />
+  <meta property="og:url" content="https://bodegabikescavite.vikaph.com" />
+  <meta property="og:type" content="website" />
+  
+  <!-- Tailwind CSS v3 -->
+  <script src="https://assets.vikaph.com/tailwindcss-3.4.17.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              primary:   '#1E3A5F',
+              secondary: '#E63946',
+              accent:    '#F4A261',
+              dark:      '#0D1B2A',
+              light:     '#F1FAEE',
+              muted:     '#457B9D',
+            }
+          },
+          fontFamily: {
+            heading: ['Oswald', 'sans-serif'],
+            body:    ['Inter', 'sans-serif'],
+            accent:  ['Roboto Condensed', 'sans-serif'],
+          },
+          borderRadius: {
+            card:   '0.75rem',
+            btn:    '0.375rem',
+          },
+          boxShadow: {
+            card:   '0 4px 20px rgba(30, 58, 95, 0.15)',
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --brand-primary: #1E3A5F;
+      --brand-secondary: #E63946;
+      --brand-accent: #F4A261;
+      --brand-dark: #0D1B2A;
+      --brand-light: #F1FAEE;
+      --brand-muted: #457B9D;
+    }
+    
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    
+    .font-heading {
+      font-family: 'Oswald', sans-serif;
+    }
+    
+    .font-accent {
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    .preview-banner {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(90deg, var(--brand-primary), var(--brand-secondary));
+      color: white;
+      text-align: center;
+      padding: 0.5rem;
+      font-size: 0.875rem;
+      font-weight: 500;
+      z-index: 9999;
+    }
+  </style>
+</head>
+<body class="bg-brand-light text-brand-dark">
+  <!-- Preview Banner -->
+  <div class="preview-banner">
+    🚧 Preview Site - Not for Production - Bodega Bikes Cavite
+  </div>
+  
+  <!-- Navigation -->
+  <nav class="bg-brand-dark text-white sticky top-6 z-50 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex items-center">
+          <span class="font-heading text-2xl font-bold text-brand-accent">BODEGA BIKES</span>
+        </div>
+        <div class="hidden md:flex space-x-8">
+          <a href="#about" class="hover:text-brand-accent transition">About</a>
+          <a href="#products" class="hover:text-brand-accent transition">Products</a>
+          <a href="#services" class="hover:text-brand-accent transition">Services</a>
+          <a href="#gallery" class="hover:text-brand-accent transition">Gallery</a>
+          <a href="#contact" class="hover:text-brand-accent transition">Contact</a>
+        </div>
+        <div class="md:hidden">
+          <button class="text-white hover:text-brand-accent">
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Hero Section -->
+  <section class="relative h-screen flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0">
+      <img src="images/hero.jpg" alt="Bike shop interior with bicycles" class="w-full h-full object-cover" />
+      <div class="absolute inset-0 bg-gradient-to-b from-brand-dark/70 via-brand-dark/50 to-brand-dark/80"></div>
+    </div>
+    <div class="relative z-10 text-center px-4 max-w-4xl">
+      <h1 class="font-heading text-5xl md:text-7xl font-bold text-white mb-6">
+        Your Trusted <span class="text-brand-accent">Bike Shop</span> in Cavite
+      </h1>
+      <p class="text-xl md:text-2xl text-brand-light mb-8 font-accent">
+        Quality Bicycles • E-Bikes • Repairs • Accessories
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#products" class="bg-brand-secondary hover:bg-red-600 text-white font-bold py-3 px-8 rounded-btn transition shadow-lg">
+          View Products
+        </a>
+        <a href="#contact" class="bg-brand-primary hover:bg-blue-800 text-white font-bold py-3 px-8 rounded-btn transition shadow-lg">
+          Visit Us
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <img src="images/about.jpg" alt="Bodega Bikes Cavite shop exterior" class="rounded-card shadow-card w-full" />
+        </div>
+        <div>
+          <h2 class="font-heading text-4xl font-bold text-brand-primary mb-6">About Bodega Bikes</h2>
+          <p class="text-lg text-gray-700 mb-4">
+            Located in the heart of Dasmarinas, Cavite, Bodega Bikes is your go-to destination for quality bicycles, e-bikes, and professional bike services. We've been serving the cycling community with passion and expertise.
+          </p>
+          <p class="text-lg text-gray-700 mb-6">
+            Whether you're a casual rider, a cycling enthusiast, or looking for your first bike, we have the perfect ride for you. Our shop offers a wide selection of bicycles, e-bikes, accessories, and expert repair services.
+          </p>
+          <div class="grid grid-cols-2 gap-4">
+            <div class="bg-brand-light p-4 rounded-card text-center">
+              <div class="text-3xl font-bold text-brand-secondary">9AM-6PM</div>
+              <div class="text-sm text-gray-600">Daily Hours</div>
+            </div>
+            <div class="bg-brand-light p-4 rounded-card text-center">
+              <div class="text-3xl font-bold text-brand-secondary">Quality</div>
+              <div class="text-sm text-gray-600">Guaranteed</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Products Section -->
+  <section id="products" class="py-20 bg-brand-light">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="font-heading text-4xl font-bold text-center text-brand-primary mb-12">Our Products</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-card shadow-card p-6 hover:shadow-xl transition">
+          <div class="h-48 bg-brand-muted/20 rounded-lg mb-4 flex items-center justify-center">
+            <span class="text-6xl">🚴</span>
+          </div>
+          <h3 class="font-heading text-2xl font-bold text-brand-primary mb-2">Mountain Bikes</h3>
+          <p class="text-gray-600">Perfect for off-road adventures and rugged terrain. Built to handle any trail.</p>
+        </div>
+        <div class="bg-white rounded-card shadow-card p-6 hover:shadow-xl transition">
+          <div class="h-48 bg-brand-muted/20 rounded-lg mb-4 flex items-center justify-center">
+            <span class="text-6xl">⚡</span>
+          </div>
+          <h3 class="font-heading text-2xl font-bold text-brand-primary mb-2">E-Bikes</h3>
+          <p class="text-gray-600">Electric bicycles for effortless commuting and extended rides.</p>
+        </div>
+        <div class="bg-white rounded-card shadow-card p-6 hover:shadow-xl transition">
+          <div class="h-48 bg-brand-muted/20 rounded-lg mb-4 flex items-center justify-center">
+            <span class="text-6xl">🔧</span>
+          </div>
+          <h3 class="font-heading text-2xl font-bold text-brand-primary mb-2">Accessories</h3>
+          <p class="text-gray-600">Helmets, locks, lights, and all your cycling essentials.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Services Section -->
+  <section id="services" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="font-heading text-4xl font-bold text-center text-brand-primary mb-12">Our Services</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="text-center p-6">
+          <div class="text-5xl mb-4">🔧</div>
+          <h3 class="font-heading text-xl font-bold text-brand-primary mb-2">Bike Repairs</h3>
+          <p class="text-gray-600 text-sm">Professional repair services for all bike types</p>
+        </div>
+        <div class="text-center p-6">
+          <div class="text-5xl mb-4">🛠️</div>
+          <h3 class="font-heading text-xl font-bold text-brand-primary mb-2">Maintenance</h3>
+          <p class="text-gray-600 text-sm">Regular tune-ups to keep your bike in top condition</p>
+        </div>
+        <div class="text-center p-6">
+          <div class="text-5xl mb-4">⚙️</div>
+          <h3 class="font-heading text-xl font-bold text-brand-primary mb-2">Custom Builds</h3>
+          <p class="text-gray-600 text-sm">Build your dream bike with our expert guidance</p>
+        </div>
+        <div class="text-center p-6">
+          <div class="text-5xl mb-4">📦</div>
+          <h3 class="font-heading text-xl font-bold text-brand-primary mb-2">Parts Installation</h3>
+          <p class="text-gray-600 text-sm">Professional installation of upgrades and accessories</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Gallery Section -->
+  <section id="gallery" class="py-20 bg-brand-light">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="font-heading text-4xl font-bold text-center text-brand-primary mb-12">Gallery</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <img src="images/gallery/01.jpg" alt="Bicycle display" class="rounded-lg shadow-md w-full h-48 object-cover hover:scale-105 transition" loading="lazy" />
+        <img src="images/gallery/02.jpg" alt="Bike repair workshop" class="rounded-lg shadow-md w-full h-48 object-cover hover:scale-105 transition" loading="lazy" />
+        <img src="images/gallery/03.jpg" alt="E-bike selection" class="rounded-lg shadow-md w-full h-48 object-cover hover:scale-105 transition" loading="lazy" />
+        <img src="images/gallery/04.jpg" alt="Bike accessories" class="rounded-lg shadow-md w-full h-48 object-cover hover:scale-105 transition" loading="lazy" />
+        <img src="images/gallery/05.jpg" alt="Mountain bike" class="rounded-lg shadow-md w-full h-48 object-cover hover:scale-105 transition" loading="lazy" />
+        <img src="images/gallery/06.jpg" alt="Shop interior" class="rounded-lg shadow-md w-full h-48 object-cover hover:scale-105 transition" loading="lazy" />
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-brand-dark text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="font-heading text-4xl font-bold text-center mb-12">Visit Us</h2>
+      <div class="grid md:grid-cols-2 gap-12">
+        <div>
+          <h3 class="font-heading text-2xl font-bold text-brand-accent mb-6">Contact Information</h3>
+          <div class="space-y-4">
+            <div class="flex items-start">
+              <span class="text-2xl mr-4">📍</span>
+              <div>
+                <p class="font-bold">Address</p>
+                <p class="text-gray-300">78 Don P. Campos Ave. Zone 4<br />Dasmariñas, Cavite</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <span class="text-2xl mr-4">📞</span>
+              <div>
+                <p class="font-bold">Phone</p>
+                <p class="text-gray-300">046-8848294</p>
+                <p class="text-gray-300">0967-048-1325</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <span class="text-2xl mr-4">🕐</span>
+              <div>
+                <p class="font-bold">Hours</p>
+                <p class="text-gray-300">9:00 AM - 6:00 PM</p>
+                <p class="text-gray-300">Monday to Sunday</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <span class="text-2xl mr-4">📘</span>
+              <div>
+                <p class="font-bold">Facebook</p>
+                <a href="https://www.facebook.com/bodegabikescavite" class="text-brand-accent hover:underline">Bodega Bikes Cavite</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3 class="font-heading text-2xl font-bold text-brand-accent mb-6">Location</h3>
+          <div class="rounded-lg overflow-hidden shadow-lg">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.123456789!2d120.9373781!3d14.3242377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTRCsDE5JzI3LjIiTiAxMjAnNTYnMjIuNiJF!5e0!3m2!1sen!2sph!4v1234567890" 
+              width="100%" 
+              height="300" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="bg-brand-primary text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p class="font-heading text-xl font-bold text-brand-accent mb-2">BODEGA BIKES CAVITE</p>
+      <p class="text-gray-400 text-sm">© 2026 Bodega Bikes Cavite. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

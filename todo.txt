@@ -1,0 +1,18 @@
+TODO: Missing Data to Fill In
+
+- Overall rating (e.g., 4.7)
+- Total review count
+- Review excerpts (3-5 reviews with author names and dates)
+- Google Maps Place ID for accurate embed
+- Establishment year
+
+Images to download from Unsplash:
+- Hero: Bike shop interior with bicycles
+- About: Bike shop exterior
+- Gallery: 6 bike shop photos (bicycles, e-bikes, workshop, accessories, mountain bikes, shop interior)
+
+Contact information verified:
+- Phone: 046-8848294, 0967-048-1325
+- Address: 78 Don P. Campos Ave. Zone 4 Dasmariñas Cavite
+- Social: /bodegabikescavite (Facebook)
+- Hours: 9am-6pm (Monday To Sunday)
