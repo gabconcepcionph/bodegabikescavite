@@ -3,7 +3,6 @@ TODO: Missing Data to Fill In
 - Overall rating (e.g., 4.7)
 - Total review count
 - Review excerpts (3-5 reviews with author names and dates)
-- Google Maps Place ID for accurate embed
 - Establishment year
 
 Images to download from Unsplash:
@@ -16,3 +15,4 @@ Contact information verified:
 - Address: 78 Don P. Campos Ave. Zone 4 Dasmariñas Cavite
 - Social: /bodegabikescavite (Facebook)
 - Hours: 9am-6pm (Monday To Sunday)
+- Google Maps Place ID: 0x3397d5d3ee694efd:0xf9504d33332f027c
